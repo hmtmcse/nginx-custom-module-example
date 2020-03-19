@@ -9,3 +9,14 @@ location = /test {
    bismillah;
 }
 ```
+
+
+```
+data1  DATA1;
+data2  DATA2;
+data3  DATA3;
+
+location = /test {
+   bismillah;
+}
+```

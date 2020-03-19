@@ -13,8 +13,7 @@ static ngx_int_t ngx_http_bismillah_handler(ngx_http_request_t *r);
 static ngx_command_t ngx_http_bismillah_commands[] = {
 
     { ngx_string("bismillah"), /* directive name */
-      NGX_HTTP_LOC_CONF|NGX_CONF_NOARGS, /* location context and takes
-                                            no arguments*/
+      NGX_HTTP_LOC_CONF|NGX_CONF_NOARGS, /* location context and takes no arguments*/
       ngx_http_bismillah, /* configuration setup function */
       0, /* No offset. Only one context is supported. */
       0, /* No offset when storing the module configuration on struct. */
